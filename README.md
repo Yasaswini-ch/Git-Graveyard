@@ -2,6 +2,20 @@
 
 A pixel gravedigger walks a night cemetery. Every tombstone is a file deleted from a git repo; press E at one to read an epitaph written by a local open-weight model. Nothing leaves your machine.
 
+![The graveyard at night: tombstones by file type, candles, two ghosts](docs/graveyard.png)
+
+## Screenshots
+
+The same graveyard read through two models (Tab switches between them). In these runs `gemma3:4b` (left) wrote shorter, tidier epitaphs, while `qwen2.5:3b` (right) ran long and leaned on the dates.
+
+| gemma3:4b | qwen2.5:3b |
+|---|---|
+| ![gemma3:4b epitaph](docs/epitaph-gemma.png) | ![qwen2.5:3b epitaph](docs/epitaph-qwen.png) |
+
+A repo with no deleted files gets this screen:
+
+![This repo is immortal](docs/immortal.png)
+
 ## Run
 
 ```bash
